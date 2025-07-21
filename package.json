@@ -1,0 +1,17 @@
+{
+  "name": "needle",
+  "version": "0.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "test": "vitest run",
+  },
+  "packageManager": "yarn@4.9.2"
+}
