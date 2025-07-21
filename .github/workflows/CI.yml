@@ -41,7 +41,6 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: yarn
-          architecture: arm64
       - name: Install dependencies
         run: yarn install
       - name: List packages
